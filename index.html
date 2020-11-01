@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Health library</title>
+
+  <!-- google font -->
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Ubuntu:wght@300&display=swap');
+  </style>
+
+
+
+
+  <script src="https://kit.fontawesome.com/21822ce844.js" crossorigin="anonymous"></script>
+
+  <!-- css -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- js -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+ </head>
+
+ <body>
+   <div id="topbar">
+
+ 		<div id="brandName" class="topbar-options">
+ 		<img src="https://ld-prestashop.template-help.com/prestashop_eze_567_tf_v2/img/covid-logo-1585572698.jpg" alt="brand name"/>
+ 		</div>
+
+ 		<div id="jxsearchbox-blog" class="topbar-options d-none d-lg-block" class="tab-pane  " role="tabpanel" aria-labelledby="blog-tab">
+         <form method="get" action="https://ld-prestashop.template-help.com/prestashop_eze_567_tf_v2/index.php?fc=module&amp;module=jxblog&amp;controller=search&amp;id_lang=1">
+
+ 		  <!-- SQL-->
+
+ 		  <div class="input-group">
+             <select  name="search_blog_categories" class="custom-select">
+               <option value="0">Blog Categories</option>
+                               <option  value="2">Home</option>
+                               <option  value="3">-ECommerce Template</option>
+                               <option  value="4">-PrestaShop modules</option>
+                           </select>
+            <div id="search-1">
+             <input class="jx_blog_search_query form-control" type="text" id="jx_blog_search_query" name="blog_search_query" placeholder="Search through the blog..." value=""/>
+ 			<div id="mag"><i class="fa fa-search" aria-hidden="true" ></i></div>
+            </div>
+
+           </div>
+         </form>
+       </div>
+
+ 	   <div id="shoppingKart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+
+ 	  	  <div id="user"><i class="fa fa-user-o" aria-hidden="true"></i></div>
+
+ 	  <div id="heart"><i class="fa fa-heart-o " aria-hidden="true"></i></div>
+
+ 		<div id="setting"><i class="fa fa-cog " aria-hidden="true"></i></div>
+
+
+
+ 		<div id="language-selector" style="">
+ 		 <div id="google_translate_element" ></div>
+ 		</div>
+
+
+ </div>
+
+ <hr>
+ <div id="topMenu" class="d-none d-lg-block">
+
+ <div class="menuitems" >
+ <a class="menulinks" href="#"> HOME MEDICINE</a>
+ </div>
+
+ <div class="menuitems">
+ <a class="menulinks" href="#"> DIET AND NUTRITION</a>
+ </div>
+
+ <div class="menuitems">
+ <a class="menulinks" href="#"> PERSONAL CARE</a>
+ </div>
+
+ <div class="menuitems">
+ <a class="menulinks" href="#"> FITNESS AND VITAMINS</a>
+ </div>
+
+ <div class="menuitems">
+ <a class="menulinks" href="#"> HEALTH LIBRARY</a>
+ </div>
+
+ <div class="menuitems">
+ <a class="menulinks" href="#"> SKIN CARE</a>
+ </div>
+
+ <div class="menuitems">
+ <a class="menulinks" href="#"> PHARMACY</a>
+ </div>
+
+ <div class="menuitems">
+ <a class="menulinks" href="#"> HAIR CARE</a>
+ </div>
+</div>
+<hr>
+
+<!-- sort by -->
+<div class="sort-by">
+  <p class="hist-section">
+     <a href="homecorona.html">Home</a> <span> > Health Library</span>
+  </p>
+
+  <p class="page-name">HEALTH LIBRARY</p>
+
+  <p class="no-products">There are 20 products</p>
+
+
+</div>
+
+<hr>
+<div class="row ">
+   <!-- ................................................................LEFT SECTION 1.................................. -->
+   <div class="left-section-1 col-lg-3 col-md-4 col-4 " style="height:5000px;">
+     <h3 class="FILTER-BY"><b>FILTER BY</b></h3>
+     <br>
+     <h4>COLOR</h4>
+     <div class="colors-container">
+       <div class="checkbox-container gray">
+         <input type="checkbox" id="gray">
+         <label for="gray" class="gray">Gray</label>
+       </div>
+
+
+       <div class="checkbox-container white">
+         <input type="checkbox" id="white">
+         <label for="white" class="white">White</label>
+       </div>
+
+
+       <div class="checkbox-container red">
+         <input type="checkbox" id="red">
+         <label for="red" class="red">Red</label>
+       </div>
+
+
+       <div class="checkbox-container black">
+         <input type="checkbox" id="black">
+         <label for="black" class="black">Black</label>
+       </div>
+
+
+       <div class="checkbox-container orange">
+         <input type="checkbox" id="orange">
+         <label for="orange" class="orange">Orange</label>
+       </div>
+
+
+       <div class="checkbox-container blue">
+         <input type="checkbox" id="blue">
+         <label for="blue" class="blue">Blue</label>
+       </div>
+
+
+       <div class="checkbox-container green">
+         <input type="checkbox" id="green">
+         <label for="yellow" class="green">Green</label>
+       </div>
+
+
+       <div class="checkbox-container yellow">
+         <input type="checkbox" id="yellow">
+         <label for="yellow" class="yellow">Yellow</label>
+       </div>
+
+
+       <div class="checkbox-container pink">
+         <input type="checkbox" id="pink">
+         <label for="pink" class="pink">Pink</label>
+       </div>
+
+     </div>
+     <br>
+
+     <h4>AGE</h4>
+     <div class="age-container">
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="toddlers">
+         <label for="toddlers" class="">Toddlers</label>
+       </div>
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="teens">
+         <label for="teens" class="">Teens</label>
+       </div>
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="adults">
+         <label for="adults" class="">Adults</label>
+       </div>
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="seniors">
+         <label for="seniors" class="">Seniors</label>
+       </div>
+     </div>
+     <br>
+     <!-- type of care -->
+     <h4>TYPE OF CARE</h4>
+     <div class="type-of-care-container">
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="baby-care">
+         <label for="baby-care" class="">Baby and Care</label>
+       </div>
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="health-care">
+         <label for="health-care" class="">Healthcare</label>
+       </div>
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="household-supplies">
+         <label for="household-supplies" class="">Household supplies</label>
+       </div>
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="personal-care">
+         <label for="personal-care" class="">Personal care</label>
+       </div>
+
+     </div>
+     <br>
+     <!-- by symptom -->
+     <h4>BY SYMPTOM</h4>
+     <div class="by-symptom-container">
+       <div class="checkbox-container ">
+         <input type="checkbox" id="allergy">
+         <label for="allergy" class="">Allergy</label>
+       </div>
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="cold-and-flue">
+         <label for="cold-and-flue" class="">Cold and flue</label>
+       </div>
+     </div>
+     <br>
+
+     <!-- by package quantity -->
+     <h4>PACKAGE QUANTITY</h4>
+     <div class="by-package-quantity-container">
+       <div class="checkbox-container ">
+         <input type="checkbox" id="10">
+         <label for="10" class="">10</label>
+       </div>
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="20">
+         <label for="20" class="">20</label>
+       </div>
+
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="50">
+         <label for="50" class="">50</label>
+       </div>
+     </div>
+     <br>
+
+     <h4>INGREDIENTS</h4>
+     <div class="by-ingredients-container">
+       <div class="checkbox-container ">
+         <input type="checkbox" id="vitamin-A">
+         <label for="vitamin-A" class="">Vitamin-A</label>
+       </div>
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="vitamin-C">
+         <label for="vitamin-C" class="">Vitamin-C</label>
+       </div>
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="vitamin-B,E">
+         <label for="vitamin-B,E" class="">Vitamin-B,E</label>
+       </div>
+     </div>
+     <br>
+
+     <!-- by deliver and return -->
+     <h4>DELIVERY AND RETURN</h4>
+     <div class="by-delivery-and-return-container">
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="14-days">
+         <label for="14-days" class="">14 days</label>
+       </div>
+       <div class="checkbox-container ">
+         <input type="checkbox" id="30-days">
+         <label for="30-days" class="">30 days</label>
+       </div>
+
+     </div>
+     <br>
+
+     <!-- by availability -->
+     <h4>AVAILABILITY</h4>
+     <div class="by-availability-container">
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="not-available">
+         <label for="not-available" class="">Not available</label>
+       </div>
+       <div class="checkbox-container ">
+         <input type="checkbox" id="in-stock">
+         <label for="in-stock" class="">In stock</label>
+       </div>
+     </div>
+     <br>
+
+     <!-- by brand -->
+     <h4>BRAND</h4>
+     <div class="by-brand1-container">
+
+       <div class="checkbox-container ">
+         <input type="checkbox" id="Activa-Naturals">
+         <label for="Activa-Naturals" class="">Activa Naturals</label>
+       </div>
+       <div class="checkbox-container ">
+         <input type="checkbox" id="Garden-Of-Life">
+         <label for="Garden-Of-Life" class="">Garden Of Life</label>
+       </div>
+       <div class="checkbox-container ">
+         <input type="checkbox" id="Herb-and-Palm">
+         <label for="Herb-and-Palm" class="">Herb and Palm</label>
+       </div>
+       <div class="checkbox-container ">
+         <input type="checkbox" id="Himalaya-herbals">
+         <label for="Himalaya-herbals" class="">Himalaya Herbals</label>
+       </div>
+       <div class="checkbox-container ">
+         <input type="checkbox" id="Hyland's">
+         <label for="Hyland's" class="">Hyland's</label>
+       </div>
+       <div class="checkbox-container ">
+         <input type="checkbox" id="Jarrow-Formulas">
+         <label for="Jarrow-Formulas" class="">Jarrow Formulas</label>
+       </div>
+       <div class="checkbox-container ">
+         <input type="checkbox" id="Muscle-Farm">
+         <label for="Muscle-Farm" class="">Muscle Farm</label>
+       </div>
+       <div class="checkbox-container ">
+         <input type="checkbox" id="Natrol">
+         <label for="Natrol" class="">Natrol</label>
+       </div>
+       <div class="checkbox-container ">
+         <input type="checkbox" id="Natural-Factors">
+         <label for="Natural-Factors" class="">Natural Factors</label>
+       </div>
+     </div>
+     <br>
+     <!-- by price -->
+     <h4>PRICE</h4>
+     <div class="by-price-containers">
+       <div class="range ">
+         <label for="slider">Range: 4-27 </label>
+         <br>
+         <input type="range" min="4" max="27" name="" value="15" class="slider" id="slider">
+       </div>
+     </div>
+     <br>
+
+     <!-- by suppliers -->
+     <h4>SUPPLIERS</h4>
+     <div class="by-suppliers-container">
+
+       <ul class="supplies">
+         <li>
+           <a href="#" class="suppliers">Active Naturals</a>
+         </li>
+       </ul>
+       <ul class="supplies">
+         <li>
+           <a class="suppliers" href="#">Bayer</a>
+         </li>
+       </ul>
+       <ul class="supplies">
+         <li>
+           <a class="suppliers" href="#">Garden of life</a>
+         </li>
+       </ul>
+       <ul class="supplies">
+         <li>
+           <a class="suppliers" href="#">Herb & Farm</a>
+         </li>
+       </ul>
+       <ul class="supplies">
+         <li>
+           <a class="suppliers" href="#">Himalaya Herbals</a>
+         </li>
+       </ul>
+     </div>
+     <br>
+
+     <!-- by BRANDS2-->
+     <div class="by-brands2-container">
+       <h4 class="heads">BRANDS</h4>
+       <ul class="brands2">
+         <li>
+           <a href="#" class="b1">Active Naturals</a>
+         </li>
+       </ul>
+       <ul class="brands2">
+         <li>
+           <a class="b1" href="#">Bayer</a>
+         </li>
+       </ul>
+       <ul class="brands2">
+         <li>
+           <a class="b1" href="#">Garden of life</a>
+         </li>
+       </ul>
+       <ul class="brands2">
+         <li>
+           <a class="b1" href="#">Herb & Farm</a>
+         </li>
+       </ul>
+       <ul class="brands2">
+         <li>
+           <a class="b1" href="#">Himalaya Herbals</a>
+         </li>
+       </ul>
+       <ul class="brands2">
+         <li>
+           <a class="b1" href="#">Hyland's</a>
+         </li>
+       </ul>
+
+       <img src="images/naturemade-d3.jpeg" width="100px" height="100px" alt="">
+
+
+     </div>
+   </div>
+   <br>
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+     <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+     <script type="text/javascript">
+       function googleTranslateElementInit() {
+         new google.translate.TranslateElement({
+             pageLanguage: 'en'
+           },
+           'google_translate_element'
+         );
+       }
+
+       var slideIndex = 1;
+       showSlides(slideIndex);
+
+       function plusSlides(n) {
+         showSlides(slideIndex += n);
+       }
+
+       function currentSlide(n) {
+         showSlides(slideIndex = n);
+       }
+
+       function showSlides(n) {
+         var i;
+         var slides = document.getElementsByClassName("mySlides");
+         var dots = document.getElementsByClassName("demo");
+         var captionText = document.getElementById("caption");
+         if (n > slides.length) {
+           slideIndex = 1
+         }
+         if (n < 1) {
+           slideIndex = slides.length
+         }
+         for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";
+         }
+         for (i = 0; i < dots.length; i++) {
+           dots[i].className = dots[i].className.replace(" active", "");
+         }
+         slides[slideIndex - 1].style.display = "block";
+         dots[slideIndex - 1].className += " active";
+         captionText.innerHTML = dots[slideIndex - 1].alt;
+       }
+
+       function uploadFile(target) {
+         document.getElementById("file-name").innerHTML = target.files[0].name;
+       }
+     </script>
+     <script>
+
+
+
+     }
+</body>
+
+</html>
